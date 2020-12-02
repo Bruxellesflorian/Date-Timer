@@ -3,6 +3,7 @@ html{
 }
 input{
     width: 30px;
+
 }
 .boitePrincipale{
     margin-left:auto ;
@@ -15,7 +16,7 @@ input{
     display: flex;
     justify-content: center;
     color: white;
-    border-top: solid #922F2F 4px;
+    border-top: solid #922F2F 5px;
     border-left: solid #922F2F 4px;
     border-right: solid #922F2F 4px;
 }
@@ -50,7 +51,7 @@ input{
     flex-direction: column;
 }
 .box2{
-    font-size: 80px;
+    
     padding-top: 18px;
     margin-left:auto ;
     margin-right:auto ;
@@ -65,4 +66,10 @@ input{
     color: white;
     display: flex;
     justify-content: center;
+}
+.divButton{
+    margin-left:auto ;
+    margin-right:auto ;
+    width: 100px;
+    padding-left: 60px;
 }
