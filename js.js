@@ -68,7 +68,13 @@ cities = [{
         offset: 1
     }
 ]
+let bol = true
 const push = button.addEventListener("click", function () {
+    if(bol === false){
+        window.location =""
+    }
+    bol=false
+    button.innerHTML = "RETOUR"
     box1.innerHTML = ""
     box1.style.fontSize = "80px"
     box2.style.fontSize = "80px"
