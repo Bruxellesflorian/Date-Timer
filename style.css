@@ -7,17 +7,19 @@ input{
 .boitePrincipale{
     margin-left:auto ;
     margin-right:auto ;
-    height: 350px;
+    height: 110px;
     width: 300px;
     background-color: #B03737;
-    border-radius: 50px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
     display: flex;
     justify-content: center;
-    border: solid #922F2F 4px;
     color: white;
-    
-
+    border-top: solid #922F2F 4px;
+    border-left: solid #922F2F 4px;
+    border-right: solid #922F2F 4px;
 }
+
 .boiteInput{
     height: 100px;
     width: 80%;
@@ -30,20 +32,37 @@ input{
     background-color: rgb(75, 30, 30);
 }
 .box1{
-    margin-top: 40px;
+    padding-top: 20px;
+    margin-left:auto ;
+    margin-right:auto ;                       
     display: flex;
     justify-content: center;
     background-color: white;
+    font-weight: bold;
     color: #909090;
     width : 300px;
-    border: solid #909090 4px;
+    height: 150px;
+    border-left: solid #d1d1d1 4px;
+    border-right: solid #d1d1d1 4px;
 }
 .flex{
     display: flex;
     flex-direction: column;
 }
 .box2{
-    font-size: 25px;
-    margin-left: -150px;
-    margin-top: 10px;
+    font-size: 80px;
+    padding-top: 18px;
+    margin-left:auto ;
+    margin-right:auto ;
+    height: 100px;
+    width: 300px;
+    background-color: #B03737;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom: solid #922F2F 10px;
+    border-left: solid #922F2F 4px;
+    border-right: solid #922F2F 4px;
+    color: white;
+    display: flex;
+    justify-content: center;
 }
