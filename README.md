@@ -12,13 +12,7 @@ I used some [Bulma](https://bulma.io/documentation/components/)'s documentation,
 
 # What did we learn ?
 For this exercise, I learned to use the bulma framework.
-* [Card](https://bulma.io/documentation/components/card/)
-* [Column](https://bulma.io/documentation/columns/basics/)
-* [Responsiveness](https://bulma.io/documentation/columns/responsiveness/)
-* [Flexbox](https://bulma.io/documentation/helpers/flexbox-helpers/)
-* [Image](https://bulma.io/documentation/elements/image/)
-* [Tag](https://bulma.io/documentation/elements/tag/)
-
+* DATE
 
 
 # What did we use ?
