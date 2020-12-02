@@ -1,7 +1,9 @@
 const timer1970 = document.createElement("div")
 
 const box1 = document.createElement("div")
+box1.classList.add("box1")
 const box2 = document.createElement("div")
+box2.classList.add("box2")
 const boiboite = document.createElement("div")
 const boitePrincipale = document.createElement("div")
 
@@ -47,12 +49,12 @@ setInterval(function(){
     let birth = date-userDate
     
     timer1970.innerHTML =
-    "Nombre de mlSec depuis le  "+userAnne.value+"/"+userMois.value+"/"+userJour.value+" ==>" +birth+ "<br>"
-    + "Nombre de seconde depuis le   "+userAnne.value+"/"+userMois.value+"/"+userJour.value+" ==>" + (birth/1000).toFixed(0) + "<br>"
-    + "Nombre de minute depuis le   "+userAnne.value+"/"+userMois.value+"/"+userJour.value+" ==>" + (birth/1000/60).toFixed(0) + "<br>"
-    + "Nombre d'heure depuis le  "+userAnne.value+"/"+userMois.value+"/"+userJour.value+" ==>" + (birth/1000/60/60).toFixed(0) + "<br>"
-    + "Nombre de jour depuis le   "+userAnne.value+"/"+userMois.value+"/"+userJour.value+" ==>" + (birth/1000/60/60/24).toFixed(0) + "<br>"
-    + "Nombre d'années depuis le   "+userAnne.value+"/"+userMois.value+"/"+userJour.value+" ==>" + (birth/1000/60/60/24/365).toFixed(0) + "<br>"
+    " milliseconde" +birth+ "<br>"
+    + "Seconde " + (birth/1000).toFixed(0) + "<br>"
+    + "Minute " + (birth/1000/60).toFixed(0) + "<br>"
+    + "Nombre d'heure"+ (birth/1000/60/60).toFixed(0) + "<br>"
+    + "Nombre de jour " + (birth/1000/60/60/24).toFixed(0) + "<br>"
+    + "Nombre d'années "+ (birth/1000/60/60/24/365).toFixed(0) + "<br>"
 	
 }, 10);
 
