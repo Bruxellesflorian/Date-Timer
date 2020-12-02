@@ -49,10 +49,10 @@ setInterval(function(){
     let birth = date-userDate
     
     timer1970.innerHTML =
-    " milliseconde" +birth+ "<br>"
+    " milliseconde " +birth+ "<br>"
     + "Seconde " + (birth/1000).toFixed(0) + "<br>"
     + "Minute " + (birth/1000/60).toFixed(0) + "<br>"
-    + "Nombre d'heure"+ (birth/1000/60/60).toFixed(0) + "<br>"
+    + "Nombre d'heure "+ (birth/1000/60/60).toFixed(0) + "<br>"
     + "Nombre de jour " + (birth/1000/60/60/24).toFixed(0) + "<br>"
     + "Nombre d'années "+ (birth/1000/60/60/24/365).toFixed(0) + "<br>"
 	
