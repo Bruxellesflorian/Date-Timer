@@ -21,4 +21,4 @@ We learned how to generate dates
 [Result](https://bruxellesflorian.github.io/Date-Timer/)
 # What does it look like ? 
 you can click to see the incredible result
-[![Preview](https://raw.githubusercontent.com/Bruxellesflorian/Date-Timer/master/Capture.PNG)
+![Preview](https://raw.githubusercontent.com/Bruxellesflorian/Date-Timer/master/Capture.PNG)
