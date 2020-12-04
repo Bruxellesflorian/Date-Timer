@@ -20,6 +20,8 @@ let titre = ["Année ", "Mois ", "Jour "]
 const table = document.createElement("table")
 boiboite.appendChild(table)
 
+
+let bobo = true
 for (let i = 0; i < boite.length; i++) {
     let tr = document.createElement("tr")
     table.appendChild(tr)
@@ -39,7 +41,7 @@ setInterval(function () {
 
     const date = Date.now()
     let birth = date - userDate
-
+    
     timer1970.innerHTML =
         " milliseconde " + birth + "<br>" +
         "Seconde " + (birth / 1000).toFixed(0) + "<br>" +
