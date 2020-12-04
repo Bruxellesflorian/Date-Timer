@@ -18,7 +18,7 @@ We learned how to generate dates
 * HTML5
 * JavaScript
 * CSS3
-
-# What does it look like ? [:mouse:](https://www.youtube.com/watch?v=SSQ6okg0GIw)
+[Result](https://bruxellesflorian.github.io/Date-Timer/)
+# What does it look like ? 
 you can click to see the incredible result
-[![Preview]()
+[![Preview](https://raw.githubusercontent.com/Bruxellesflorian/Date-Timer/master/Capture.PNG)
